@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://use.fontawesome.com/aafa5ec230.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link href="Web.css" rel="stylesheet" type="text/css"/>
+  <title>Document</title>
+</head>
+<body>
+   <div id="main">
+  <div class="container">
+  <div class="header">
+     <div id="barritas">
+         <a href="Inicio.html">
+
+         </a>
+         <span style="font-size:30px;cursor:pointer;float:left;margin-left:10px;" onclick="openNav()">&#9776;
+         </span>
+         <p id="rocky">Rocky Travel</p>
+     </div>
+  </div>
+
+  <div class="menu">
+    <div class="menusito">
+      <a href="#intr" target="_self">Introducció</a>
+    </div>
+    <div class="menusito">
+      <a href="#desc" target="_self">Activitats</a>
+    </div>
+    <div class="menusito">
+      <a href="#menj" target="_self">Menjar</a>
+    </div>
+    <div class="menusito">
+      <a href="#dorm" target="_self">On hospedar-se</a>
+    </div>
+  </div>
+
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#intr" target="_self">Introducció</a>
+      <a href="#desc" target="_self">Activitats</a>
+      <a href="#menj" target="_self">Menjar</a>
+      <a href="#dorm" target="_self">On hospedar-se</a>
+   </div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+
+   <div class="tabs" id="intr">
+      <picture id="intr">
+         <source media="(max-width: 720px)" srcset="img/Descobreix-2_L.jpg">
+         <source media="(min-width: 721px)" srcset="img/Descobreix-2_H.jpg">
+         <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+      </picture>
+   </div>
+      <div class="initialp">
+        <p>
+           <span>És el més vell dels parcs naturals, fundat el 1885, a la província d’Alberta. És famós pels seus llacs de colors surrealistes i les seves majestuoses muntanyes.</span>
+          <span>Més de tres milions de visitants a l’any fan el pelegrinatge fins al parc per la varietat d’activitats, que inclou escalada, passeigs en bici, esquii i acampades a alguns dels escenaris més impressionants dels paisatges de muntanya.</span>
+          <span>Per algun temps, els directius han estat preocupats del fet que una presència humana massa freqüent afectés adversament a la vida salvatge i marina del parc, la migració animal i la qualitat de l’aigua. A més dels tants visitants del parc, centenars de persones el travessen viatjant al Trans-Canada Highway. També hi ha preocupacions pels efectes del canvi climàtic a l’ecosistema del parc, des que les temperatures es tornen gradualment més càlides, i contribueix al desgel de glacials i els camps de gel.</span>
+         </p>
+      </div>
+
+    <div class="tabs">
+      <picture id="desc">
+         <source media="(max-width: 720px)" srcset="img/Gaudeix-2_L.jpg">
+         <source media="(min-width: 721px)" srcset="img/Gaudeix-2_H.jpg">
+         <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+      </picture>
+    </div>
+
+      <div class="row">
+            <div class="uno">
+               <h3>Vermillion travel</h3>
+               <p>
+                 <span>Navega per les exuberants aigües del llac Vermillion acompanyat només del so dels rems contra l’aigua i del cant dels ocells.</span>
+               </p>
+            </div>
+            <div class="uno">
+               <h3>Skiing Louise</h3>
+               <p>
+                 <span>Amb 4.200 acres esquiables, el llac Louise és una de les àrees més grans per esquiar a Amèrica del Nord. Les seves formes úniques permeten diferents dificultats per esquiar; hi ha principiant, intermedi i avançat. Els principiants i els intermedis tenen accés a una gran quantitat de baixades suaus. Apunta’t a un passeig a cavall a través</span>
+               </p>
+            </div>
+            <div class="uno">
+                <h3>Horseback ride</h3>
+                <p>
+                  <span>Apunta’t a un passeig a cavall a través dels camps glaçats de Banff durant 45 minuts. Acomoda’t sota una manta de llana amb la família, amics o en parella mentre el conductor et porta en tour a veure el cim de les muntanyes.</span>
+                  <span>102 €/dia</span>
+                </p>
+            </div>
+      </div>
+
+
+    <div class="tabs">
+      <picture id="menj">
+       <source media="(max-width: 720px)" srcset="img/Menja-2_L.jpg">
+       <source media="(min-width: 721px)" srcset="img/Menja-2_H.jpg">
+       <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+      </picture>
+    </div>
+
+   <div class="row">
+      <div class="uno">
+         <img src="img/mini/BeaverTails.png" />
+            <h3>Beaver Tails</h3>
+               <p>
+                  <span>+00 1 403-760-0606</span>
+                  <span>120 Banff Avenue, Banff,</span>
+                  <span>Parc Nacional Banff,</span>
+                  <span>Alberta T1L 1E7, Canadà</span>
+               </p>
+      </div>
+
+      <div class="uno">
+         <img src="img/mini/JuniperBistro.png" />
+            <h3>The Juniper Bistro</h3>
+               <p>
+                 <span>+00 1 403-763-6219</span>
+                 <span>1 Juniper Way, Banff</span>
+                 <span>Parc Nacional Banff,</span>
+                 <span>Alberta T1L 1E1, Canadà</span>
+               </p>
+      </div>
+
+      <div class="uno">
+         <img src="img/mini/MapleLeaf.png" />
+            <h3>The Maple Leaf</h3>
+               <p>
+                  <span>+00 1 403-760-7680</span>
+                  <span>137 Banff Ave., Banff</span>
+                  <span>Parc Nacional Banff,</span>
+                  <span>Alberta T1L 1C8, Canadà</span>
+               </p>
+      </div>
+   </div>
+
+    <div class="tabs">
+      <picture id="dorm">
+         <source media="(max-width: 720px)" srcset="img/Relaxat-2_L.jpg">
+         <source media="(min-width: 721px)" srcset="img/Relaxat-2_H.jpg">
+         <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+      </picture>
+    </div>
+
+
+   <div class="row">
+      <div class="uno">
+         <img src="img/mini/RockyResort.png" />
+            <h3>Banff Rocky Mountain Resort</h3>
+               <p>
+                  <span>+00 1 780-754-1108</span>
+                  <span>1029 Banff Avenue, Banff,</span>
+                  <span>Parc Nacional Banff,</span>
+                  <span>Alberta T1L 1A2, Canadà</span>
+                  <span>152 €/dia</span>
+               </p>
+      </div>
+
+      <div class="uno">
+         <img src="img/mini/BumpersInn.png" />
+            <h3>Bumpers Inn</h3>
+               <p>
+                  <span>+00 1 402-989-7300</span>
+                  <span>250 Marmot Cres, Banff,</span>
+                  <span>Parc Nacional Banff,</span>
+                  <span>Alberta T1L 1H8, Canadà</span>
+                  <span>174 €/dia</span>
+               </p>
+      </div>
+
+      <div class="uno">
+         <img src="img/mini/Rimrock.png" />
+            <h3>Rimrock Resort Hotel</h3>
+                <p>
+                  <span>+00 1 587-907-5336</span>
+                  <span>300 Mountain Avenue Box 1110, Banff,</span>
+                  <span>Parc Nacional Banff,</span>
+                  <span>Alberta T1L 1J2, Canadà</span>
+                  <span>240 €/dia</span>
+               </p>
+      </div>
+   </div>
+
+   <div class="pie">
+      <ul>
+         <li>Contacta amb nosaluno!</li>
+         <li>Tel. 66 2459 399</li>
+         <li>Fax: 936 555 555</li>
+         <li>E-Mail: jcanas.crn@artsgrafiques.org</li>
+      </ul>
+   </div>
+</div>
+</body>

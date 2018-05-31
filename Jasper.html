@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://use.fontawesome.com/aafa5ec230.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link href="Web.css" rel="stylesheet" type="text/css"/>
+  <title>Document</title>
+</head>
+<body>
+   <div id="main">
+  <div class="container">
+  <div class="header">
+     <div id="barritas">
+         <span style="font-size:30px;cursor:pointer;float:left;margin-left:10px;" onclick="openNav()">&#9776;
+         </span>
+            <p id="rocky">Rocky Travel</p>
+     </div>
+  </div>
+
+  <div class="menu">
+    <div class="menusito">
+      <a href="#intr" target="_self">Introducció</a>
+    </div>
+    <div class="menusito">
+      <a href="#desc" target="_self">Activitats</a>
+    </div>
+    <div class="menusito">
+      <a href="#menj" target="_self">Menjar</a>
+    </div>
+    <div class="menusito">
+      <a href="#dorm" target="_self">On hospedar-se</a>
+    </div>
+  </div>
+
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#intr" target="_self">Introducció</a>
+      <a href="#desc" target="_self">Activitats</a>
+      <a href="#menj" target="_self">Menjar</a>
+      <a href="#dorm" target="_self">On hospedar-se</a>
+   </div>
+
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+
+   <div class="tabs" id="intr">
+      <picture id="intr">
+         <source media="(max-width: 720px)" srcset="img/Descobreix-1_L.jpg">
+         <source media="(min-width: 721px)" srcset="img/Descobreix-1_H.jpg">
+         <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+      </picture>
+   </div>
+      <div class="initialp">
+        <p>
+          <span>Abans conegut com Fitzhugh, El Parc Jasper es troba al nord del Parc Nacional Banff, i s’estén fi ns a la frontera del munt Robson al Nord-oest. Ubicat a la ciutat d’Alberta, el Jasper és el més septentrional dels quatre parcs de les Rockies. El paisatge d’aquesta bellesa natural està composta de llacs, cascades i glaciars que es fusionen en un excel·lent marc muntanyós. El parc està habitat per animals salvatges.</span>
+          <span>Encara que no estigui gaire visitat  per turistes, s’ofereixen excursions per conèixer el llac Beauvert, el Mont Edith Clavell, el llac Piràmide, el punt més alt  de les Rocky Mountains, i el vall Maligne, on val la pena quedar-se per veure el paisatge al capvespre.</span>
+         </p>
+      </div>
+
+   <div class="tabs">
+      <picture id="desc">
+         <source media="(max-width: 720px)" srcset="img/Gaudeix-1_L.jpg">
+         <source media="(min-width: 721px)" srcset="img/Gaudeix-1_H.jpg">
+         <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+      </picture>
+   </div>
+
+      <div class="row">
+            <div class="uno">
+               <h3>Jasper Hike</h3>
+                  <p>
+                     <span>Aquesta excursió es realitza dues vegades al dia. A bord del minibús exploraràs una secció del Parc Jasper. El  teu guia recalcarà les característiques úniques del vall mentre vigiles els ossos, ants, uapitís, llops, cabres, àligues i fi ns i tot la rara marmota!
+                     </span>
+                  </p>
+            </div>
+            <div class="uno">
+               <h3>Fishing</h3>
+                  <p>
+                     <span>La pesca de la truita no és més bonica a cap lloc com ho és al llac Maligne, el llac més gran del parc Jasper. Abastit amb truites de sant Martí, la pesca és abundant.i desafi ant. I envoltat per les Canadian Rockies, un vespre al llac quedarà gravat per sempre a la teva memòria.</span>
+                  </p>
+            </div>
+            <div class="uno">
+               <h3>Rockies from the sky</h3>
+                  <p>
+                     <span>Els nostres tours en helicòpter varien  des d’opcions de 15 minuts a Rocky Mountain Oddysey, al nostre tour més famós de 30 minuts a veure cimes, el d’1 hora a “l’aventura al Llac Maligne”,  o el més llarg i espectacular de tots,  d’1 hora 30 minuts, “Explora el Munt Robson”. Els nostres helicòpters porten fins a 5 passatgers.
+                     </span>
+            </div>
+      </div>
+
+
+   <div class="tabs">
+      <picture id="menj">
+         <source media="(max-width: 720px)" srcset="img/Menja-1_L.jpg">
+         <source media="(min-width: 721px)" srcset="img/Menja-1_H.jpg">
+         <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+      </picture>
+   </div>
+
+   <div class="row">
+      <div class="uno">
+         <img src="img/mini/Paw.png" />
+            <h3>The Other Paw Bakery&Cafe</h3>
+               <p>
+                  <span>+00 1 780-852-2253</span>
+                  <span>610 Connaught Drive, Jasper</span>
+                  <span>Parc Nacional Jasper,</span>
+                  <span>Alberta T0E 1E0, Canadà</span>
+               </p>
+      </div>
+
+      <div class="uno">
+         <img src="img/mini/Raven.png" />
+            <h3>The Raven Bistro</h3>
+               <p>
+                  <span>+00 1 780-852-5151</span>
+                  <span>504 Patricia Street, Jasper,</span>
+                  <span>Parc Nacional Jasper,</span>
+                  <span>Alberta T0E 1E0, Canadà</span>
+               </p>
+      </div>
+
+      <div class="uno">
+         <img src="img/mini/Syrahs.png" />
+            <h3>Syrahs of Jasper</h3>
+               <p>
+                  <span>+00 1 780-852-4559</span>
+                  <span>606 Patricia Street, Jasper</span>
+                  <span>Parc Nacional Jasper,</span>
+                  <span>Alberta T0E 1E0, Canadà</span>
+               </p>
+      </div>
+   </div>
+
+    <div class="tabs">
+      <picture id="dorm">
+         <source media="(max-width: 720px)" srcset="img/Relaxat-1_L.jpg">
+         <source media="(min-width: 721px)" srcset="img/Relaxat-1_H.jpg">
+         <img src="OtherImage.png" alt="IfItDoesntMatchAnyMedia">
+      </picture>
+    </div>
+
+   <div class="row">
+      <div class="uno">
+         <img src="img/mini/Pocahontas.png" id="mini" />
+            <h3>Pocahontas Cabins</h3>
+               <p>
+                  <span>+00 1 888-852-7737</span>
+                  <span>Miette Road, Jasper,</span>
+                  <span>Parc Nacional Jasper</span>
+                  <span>Alberta T0E 1E0, Canadà</span>
+                  <span>123 €/dia</span>
+               </p>
+      </div>
+
+      <div class="uno">
+         <img src="img/mini/Astoria-Hotel.png" />
+            <h3>Astoria Hotel</h3>
+               <p>
+                  <span>+00 1 587-741-5011</span>
+                  <span>404 Connaught Drive, Jasper</span>
+                  <span>Parc Nacional Jasper</span>
+                  <span>Alberta T0E 1E0, Canadà</span>
+                  <span>135 €/dia</span>
+               </p>
+      </div>
+
+      <div class="uno">
+         <img src="img/mini/Marmot-Lodge.png" />
+            <h3>Marmot Lodge</h3>
+               <p>
+                  <span>+00 1 828-487-6646 </span>
+                  <span>86 Connaught Drive, Jasper, </span>
+                  <span>Parc Nacional Jasper</span>
+                  <span>Alberta T0E 1E0, Canadà</span>
+                  <span>133 €/dia</span>
+               </p>
+      </div>
+   </div>
+
+   <div class="pie">
+      <ul>
+         <li>Contacta amb nosaluno!</li>
+         <li>Tel. 66 2459 399</li>
+         <li>Fax: 936 555 555</li>
+         <li>E-Mail: jcanas.crn@artsgrafiques.org</li>
+      </ul>
+   </div>
+</div>
+</body>
