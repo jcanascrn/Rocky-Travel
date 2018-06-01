@@ -159,6 +159,12 @@
      padding-top: 20px;
      margin: 0 auto;
    }
+      
+            /*pag inicio*/
+      .locations {
+        width: 300px;
+        margin: 0 auto;
+      }
 
    .uno {
       width: 95%;
@@ -294,8 +300,6 @@ ul{
 /*pag inicio*/
 .locations {
   width: 400px;
-  height: 425px;
-  text-align: center;
   margin: 0 auto;
 }
 /*-pag inicio-*/
