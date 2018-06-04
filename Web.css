@@ -305,10 +305,12 @@ ul{
 
 /*pag inicio*/
 .locations {
-  width: 10px;
   height: 425px;
   text-align: center;
   margin: 0 auto;
+}
+.locations img {
+   width: 400px;
 }
 /*-pag inicio-*/
 
