@@ -305,6 +305,7 @@ ul{
 
 /*pag inicio*/
 .locations {
+  width: 400px;
   height: 425px;
   text-align: center;
   margin: 0 auto;
