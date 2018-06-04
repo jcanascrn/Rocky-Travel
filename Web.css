@@ -62,6 +62,7 @@
       .menusito a:link {
          color: #DDD;
          text-decoration: none;
+         visibility: hidden;
       }
 
       .menusito a:visited {
@@ -152,6 +153,7 @@
       display: block;
       line-height: 71px;
       align: left;
+      visibility: hidden;
    }
 
    .header img {
@@ -159,12 +161,6 @@
      padding-top: 20px;
      margin: 0 auto;
    }
-      
-            /*pag inicio*/
-      .locations {
-        width: 100%;
-        margin: 0 auto;
-      }
 
    .uno {
       width: 95%;
@@ -234,6 +230,16 @@
           line-height: 71px;
         }
 
+        .menusito a:link {
+           color: #DDD;
+           text-decoration: none;
+           visibility: visible;
+        }
+
+        .menusito a:visited {
+           color: #DDD;
+        }
+
         #barritas span{
            display: none;
         }
@@ -301,8 +307,8 @@ ul{
 .locations {
   width: 400px;
   height: 425px;
+  text-align: center;
   margin: 0 auto;
-  text align: center;
 }
 /*-pag inicio-*/
 
