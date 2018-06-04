@@ -1,4 +1,5 @@
-/* Mobile------------------------------------------ */
+
+@media screen and (min-width: 1px) {/* Mobile------------------------------------------ */
 
       body{
         height: 100%;
@@ -101,12 +102,6 @@
         font-weight: bold;
       }
 
-      .header img {
-         width: 125px;
-         padding-top: 20px;
-         margin: 0 auto;
-      }
-
       .photo {
         position: relative;
         width: 100%;
@@ -128,7 +123,7 @@
          background-color: #fff;
          box-shadow: 5px 10px 20px #c1c1c1;
       }
-
+}
 /* Fins a 480------------------------------------------ */
 
 @media screen and (max-width: 480px) {
@@ -252,7 +247,7 @@
         }
         .uno {
            width: 26%;
-           height: 360px;
+           height: 420px;
            margin: 1%;
            padding: 15px;
            background-color: #fff;
@@ -305,13 +300,10 @@ ul{
 
 /*pag inicio*/
 .locations {
-  width: 400px;
-  height: 425px;
-  text-align: center;
-  margin: 0 auto;
-}
-.locations img {
-   width: 350px;
+   width: 400px;
+   height: 425px;
+   text-align: center;
+   margin: 0 auto;
 }
 /*-pag inicio-*/
 
