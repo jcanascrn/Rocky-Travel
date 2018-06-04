@@ -236,7 +236,7 @@
         }
 
         #barritas span{
-           display: none;
+           visibility: hidden;
         }
 
         .header img {
