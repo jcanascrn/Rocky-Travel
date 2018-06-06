@@ -82,12 +82,13 @@
       }
 
       #main {
+
          transition: margin-left .5s;
          padding: 16px;
          margin: 0;
          padding: 0;
       }
-      #barritas {
+      #barritas{
          margin-left: 0;
       }
 
