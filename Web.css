@@ -27,7 +27,7 @@
       }
 
       .sidenav {
-         heigh;
+         height: 100%;
          width: 0;
          position: fixed;
          z-index: 1;
@@ -82,7 +82,6 @@
       }
 
       #main {
-
          transition: margin-left .5s;
          padding: 16px;
          margin: 0;
@@ -167,11 +166,12 @@
       margin: 0 auto;
    }
 
-   .locations {
+   #locations {
       width: 100%;
+      height: 800px;
       text-align: center;
    }
-   .locations img {
+   #locations img {
       width: 100%;
    }
 }
@@ -312,13 +312,13 @@ ul{
 }
 
 /*pag inicio*/
-.locations {
+#locations {
    width: 400px;
    height: 425px;
    text-align: center;
    margin: 0 auto;
 }
-.locations img {
+#locations img {
    width: 350px;
 }
 /*-pag inicio-*/
