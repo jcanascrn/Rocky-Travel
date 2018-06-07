@@ -1,32 +1,64 @@
 <!DOCTYPE html>
-<html lang="ca">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script src="https://use.fontawesome.com/aafa5ec230.js"></script>
-      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-      <link href="Web.css" rel="stylesheet" type="text/css"/>
-      <title>Rocky Travel</title>
-   </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://use.fontawesome.com/aafa5ec230.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+   <link href="Webo.css" rel="stylesheet" type="text/css"/>
+  <title>Rocky Travel</title>
+</head>
+<body>
+   <div id="main">
+   <div class="container">
+   <div class="header">
+      <div id="barritas">
+         <a href="Inicio.html">
+         </a>
+         <span style="font-size:30px;cursor:pointer;float:left;margin-left:10px;" onclick="openNav()">&#9776;
+         </span>
+         <p id="rocky">Rocky Travel</p>
+      </div>
+   </div>
 
-   <body>
-      <div id="main">
-           <div class="container">
-              <div class="header">
-                     <p id="rocky">Rocky Travel</p>
-              </div>
-           </div>
+   <div class="menu">
+      <div class="menusito">
+         <a href="#locations" target="_self">Visita</a>
+      </div>
+   </div>
 
-           <div class="photo">
-             <iframe width="100%" height="auto" src="GWD/Slider/Slider-inicio.html" frameborder="0"  allowfullscreen></iframe>
-           </div>
+   <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#locations" target="_self">Visita</a>
 
-     <div class="initialp">
-         <p>Comprenen més de 4.800 km des de Nou Mèxic fins al nord de la Colúmbia Britànica i travessen els Estats Units i Canadà. Es composen de roques sedimentàries, pissarra i pedra calcària. Parlem de les Canadian Rockies, que se situen al sud-oest de Canadà. Formen part de la Canadian Cordillera, i gran part d’aquesta està protegida per parcs. És Patrimoni de la Humanitat.</p>
-     </div>
+   </div>
 
-     <div class="locations">
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "white";
+}
+</script>
+
+
+
+   <div class="photo">
+      <iframe width="100%" height="auto" src="GWD/Slider/Slider-inicio.html" frameborder="0"  allowfullscreen></iframe>
+   </div>
+
+   <div class="initialp">
+      <p>Comprenen més de 4.800 km des de Nou Mèxic fins al nord de la Colúmbia Britànica i travessen els Estats Units i Canadà. Es composen de roques sedimentàries, pissarra i pedra calcària. Parlem de les Canadian Rockies, que se situen al sud-oest de Canadà. Formen part de la Canadian Cordillera, i gran part d’aquesta està protegida per parcs. És Patrimoni de la Humanitat.</p>
+   </div>
+
+      <div id="locations">
        <a href="Jasper.html">
          <img src="img/Entradilla-Jasper.png">
        </a>
@@ -41,13 +73,13 @@
        </a>
      </div>
 
-     <div class="pie">
-       <ul>
-         <li>Contacta amb nosaltres!</li>
+  <div class="pie">
+      <ul>
+         <li>Contacta amb nosaluno!</li>
          <li>Tel. 66 2459 399</li>
          <li>Fax: 936 555 555</li>
          <li>E-Mail: jcanas.crn@artsgrafiques.org</li>
-       </ul>
-     </div>
-   </body>
-</html>
+      </ul>
+   </div>
+</div>
+</body>
